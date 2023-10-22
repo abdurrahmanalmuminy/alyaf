@@ -1,0 +1,109 @@
+:root {
+    --primaryColor: #004349;
+    --accentColor: #28C8A6;
+    --highlight: rgba(255, 255, 255, 0.75);
+    --highlight1: rgba(255, 255, 255, 0.50);
+    --highlight2: rgba(255, 255, 255, 0.20);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 1.8em 1.5em;
+    background-color: var(--primaryColor);
+    font-family: "Alexandria";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid var(--highlight2);
+}
+
+.logo {
+    height: 3.2em;
+}
+
+.dashboard-btn {
+    padding: 0.65em 1.2em;
+    background-color: transparent;
+    border: 0.15rem solid;
+    border-radius: 0.5rem;
+    border-color: var(--highlight2);
+    color: var(--highlight1);
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: "Alexandria";
+}
+
+.dashboard-btn-active {
+    padding: 0.65rem 1.2rem;
+    background-color: var(--accentColor);
+    border-radius: 0.5rem;
+    border: 0;
+    border-color: var(--highlight2);
+    color: var(--primaryColor);
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: "Alexandria";
+}
+
+.title {
+    margin: 1.5em 0em 0.2em 0em;
+    color: #FFFFFF;
+    font-size: 2.2em;
+    line-height: 1.5;
+    direction: rtl;
+    text-align: center;
+}
+
+.title span {
+    color: var(--accentColor);
+}
+
+.subtitle {
+    margin: 1em 0em 2em 0em;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    direction: rtl;
+    text-align: center;
+}
+
+.subtitle span {
+    color: var(--accentColor);
+}
+
+.terms {
+    margin: 0.75em 0em 1.5em 0em;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 1rem;
+    direction: rtl;
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    margin: 1em 0em;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    direction: rtl;
+    text-align: center;
+}
+
+.subtitle span {
+    color: var(--accentColor);
+} span {
+    color: var(--accentColor);
+}
